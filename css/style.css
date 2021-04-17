@@ -1,141 +1,188 @@
 *{
     box-sizing: border-box;
 }
-header{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
- header img {
-  float: left;}
-header nav {
-    display: inline-block;
-    position: absolute;
-    top: 3%;
-    right: 0%;
-}
-header nav img {
-    
-    float: right;
-    ;
-    top: 3%;
-    right: 0%;
-    padding: 2px;
 
- }
- 
- #pic{
+
+header{
+ padding:2%;       
+}
+
+header nav img{
+    float: left;
+    clear: both;
+    display: block;
+    margin-left: 22%;
+}
+
+header nav span{
+    font-family: 'Pacifico', cursive;
+    font-size: x-large;
+    color:black ;
+    font-style: oblique;
+}
+
+header nav p{
+    margin-left: 25.5%;
+    font-size: small;
+    color:darkgray ;
+}
+
+nav ul{
+     position: absolute;
+     clear: both;
+     top:3%;
+     right:23%;
+     top:6%;
+    }
+     
+
+
+ nav ul li{
+    display: inline-block;
+    padding-top: 5px;
+}
+
+ nav ul li img{
+    text-decoration: none;
+}
+
+
+
+hr{
+   display: block;
+   background-image: url(https://raw.githubusercontent.com/LTUC/amman-201d22/main/class-10/lab-a/lab-assets/hr-img.png);
+   border: 0px; 
+   height: 15px;
+   width: 57%;
+   margin-top: 2%;
+}
+
+
+#one{
+    margin-left: 65.5%;
+    clear: both;
+    display: block;
+    color: darkgray;
+}
+
+
+#sectionOne {
+margin-left:23%;
+display: block;
+color: darkgray;
+}
+
+#sectionOne span{
+    font-size:xx-large;
+    font-weight: 300px;
+    color: black;
+    font-weight: bold ;   
+}
+
+#sectionTwo img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;    
+}
+
+#sectionThree {
+    display: block;
+     margin-left:auto;
+     margin-right: auto;
+     clear: both;
+     text-align:center;
+     font-size:larger;
+     padding: 2%;
+     color:dimgray;
+}
+#sectionFour{
     position: relative;
     text-align: center;
-    color: rgb(15, 14, 14);
- } 
- #form{
+}
+
+#form{
     position: absolute;
-    top: 25%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
     height: 20px;
  }
- #icon{
-     width: 30%;
-     height: 2px;
-     display: inline-block;
-    
-     
- }
- #icon h3 span{
-    font-size: 35px;
-    font-weight: bold;
- }
- #section1 img{
-     display: block;
-     margin-left: 82%;}
-     /* margin-right: auto; */
 
-#section1 {
-    margin-left: 14%;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
+ #firstbox{
+position: absolute;
+  top: 50px;
+  right: 63%;
+  text-align: justify;
 }
-#section1 p{
-    color: darkgray;
-}
- 
- #section2 img{
-     display: block;
-     margin-left: auto;
-     margin-right: auto ;
-     clear: both;
-     padding: 1%;
- } 
- #section2 p{
-     text-align: justify;
-     display: block;
-     margin-left: 12%;
-     margin-right: 12% ;
-     clear: both;
-     padding: 1%;
-     ;
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
- } #firstbox{
-     float: left;
-     text-align: justify;
-     width: 50%;
-     padding-right: 50px;
-     font-family: monospace;
 
-     
- }
- #secondbox{
-     float: right;
-     text-align: justify;
-     width: 50%;
-     padding-left:70px;
-     font-family: monospace;
- }
- #section3 img {
-    float: left;
-    display:inline-block ;
-    margin-left: 12%;
-    margin-right: 3% ;
+#secondbox{
+ position: absolute;
+  top: 50px;
+  right: 30%;
+  text-align: justify;
+}
+
+#secondbox div{
+    text-decoration:line-through;
+}
+
+#sectionFive{
+    position: relative;
+    padding: 20px
+}
+
+#sectionFive img{
+    margin-left: 22%;
     clear: both;
-    padding: 1%; }
+    float: left;
+    padding-right: 20px;  
+    display: block;
     
-    #section3 h4{
-        color: rgb(170, 130, 130);
+}
 
+#sectionFive span{
+    font-size:x-large;
+    color: slategrey;
+    position: absolute;
+    
+}
 
+#sectionFive p{
+    font-size:large;
+    color: slategrey;
+    position: absolute;
+    margin-left: 27.5%;
+    
+}
+
+ button{
+    text-align: center;
+    padding: 15px 33px;
+    color:whitesmoke;
+    background-color: brown;
+    border: none;
+    clear: both;
+    margin-left: 41.3% ;    
+ }
+
+ footer{
+     padding:80px;
+     clear: both;
+ }
+
+ footer hr {     
+    background: url('https://github.com/LTUC/amman-201d22/blob/main/class-10/lab-a/lab-assets/small-logo.png?raw=true') no-repeat top center;
+    background-size: contain;
+    display: block;
+    height: 30px;
+    border: 0;
+    width: 50%;
+    position: relative; 
     }
-    #section3 button{
-        float:right;
-        margin-right: 15%;
-         /* margin-bottom: 15%  */
-        ;  background-color: #a54433; /* Green */
-        border: none;
-        color: rgb(253, 249, 249);
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-      }
-      footer img{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        clear: both;
 
-      }
-      footer p{
-         
-            text-align: center; 
-          margin-left: auto;
-          margin-right: auto;
-          color: rgb(138, 135, 122);
-          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-
-      }
-
-    
  
-
-
+ footer p{
+     text-align: center;
+     color: darkgrey;
+ }
